@@ -614,6 +614,14 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="1.5" y1="-1.9098" x2="1.5" y2="1.9098" width="0" layer="39"/>
 <text x="-1.5" y="2" size="0.6096" layer="25" font="vector" ratio="25">&gt;NAME</text>
 <text x="-1.6" y="-2.6" size="0.6096" layer="27" font="vector" ratio="25">&gt;VALUE</text>
+<wire x1="-1.3" y1="1.6" x2="-1.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1.6" x2="1.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.6" x2="1.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.3" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.6" x2="-1.6" y2="-1.3" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -622,7 +630,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="175.26" size="3.81" layer="94">&gt;SHEET_NAME</text>
 </symbol>
 <symbol name="DOCFIELD">
 <wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
@@ -1760,7 +1767,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="R3" gate="G$1" x="172.72" y="167.64" rot="R180"/>
 <instance part="R9" gate="G$1" x="172.72" y="132.08" rot="R180"/>
 <instance part="R12" gate="G$1" x="157.48" y="177.8" rot="R180"/>
-<instance part="R13" gate="G$1" x="154.94" y="142.24" rot="R180"/>
+<instance part="R13" gate="G$1" x="154.94" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="163.83" y="145.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="158.75" y="145.542" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R8" gate="G$1" x="147.32" y="157.48" rot="R270"/>
 <instance part="R16" gate="G$1" x="147.32" y="121.92" rot="R270"/>
 <instance part="R23" gate="G$1" x="139.7" y="129.54" smashed="yes" rot="R180">
